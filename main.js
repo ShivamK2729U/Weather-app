@@ -67,17 +67,17 @@ if (city === '') return;
     switch (json.weather[0].main) {
       
       case 'Clear': 
-        image.src = '/images/sun.png';
+        image.src = 'Images/sun.png';
         break;
         
       
       case 'Rain':
-        image.src = '/images/rain.png';
+        image.src = 'Images/rain.png';
         break;
       
       
       case 'Snow':
-        image.src = '/images/snow.png';
+        image.src = 'Images/snow.png';
         break;
         
       case 'Clouds':
@@ -85,17 +85,17 @@ if (city === '') return;
       
       
       case 'Mist':
-        image.src = '/images/air.png';
+        image.src = 'Images/air.png';
         break;
       
       
       case 'Haze':
-        image.src = '/images/air.png';
+        image.src = 'Images/air.png';
         break;
         
       
       default:
-        image.src = '/images/cloud.png';
+        image.src = 'Images/cloud.png';
         
     }
         
